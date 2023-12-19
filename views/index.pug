@@ -1,0 +1,55 @@
+doctype html
+html
+    head 
+        title This is Title 
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="../static/imgs/logo.png")
+                    |SDA
+                li #[a(href='/') Home]
+                li #[a(href='/about') About]
+                li #[a(href='/classInfo') Class Info]
+                li #[a(href='/services') Services]
+                li #[a(href='/contactUs') Contact Us]
+        section#introSection 
+            div Welcome to Sam's Dance Academy.
+            div.tagline Eat Sleep Dance Repeat.
+        section#missionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="../static/imgs/1.jpg")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat accusantium obcaecati deleniti expedita quisquam, itaque qui, commodi doloribus excepturi labore aut corrupti eum, voluptatibus alias omnis laudantium iusto nobis.
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="../static/imgs/2.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat accusantium obcaecati deleniti expedita quisquam, itaque qui, commodi doloribus excepturi labore aut corrupti eum, voluptatibus alias omnis laudantium iusto nobis.
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="../static/imgs/3.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat accusantium obcaecati deleniti expedita quisquam, itaque qui, commodi doloribus excepturi labore aut corrupti eum, voluptatibus alias omnis laudantium iusto nobis.
+        section#sponsorSection 
+            h2 Our Sponsors
+            div#sponsors
+                img(src="../static/imgs/sponsor1.png" alt="Sponsor Image" class="spImage")
+                img(src="../static/imgs/sponsor3.png" alt="Sponsor Image" class="spImage")
+                img(src="../static/imgs/sponsor4.png" alt="Sponsor Image" class="spImage")
+                img(src="../static/imgs/sponsor2.png" alt="Sponsor Image" class="spImage")
+        footer#footer 
+            |Copyright © 2023 SamDanceAcademy.com | All rights reserved
+
+        script 
+            include ../static/index.js

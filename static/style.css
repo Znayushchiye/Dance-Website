@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 760px;
+}
+
+#logo img {
+    height: 25px;
+    filter: invert(1);
+    margin-right: 5px;
+}
+
+#navbar {
+    background-color: #d43b3b;
+    padding: 15px;
+    font-family: 'Roboto';
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 25px;
+    color: white;
+    font-size: 1.22rem;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    font-weight: 500;
+    padding-bottom: 40px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Source Code Pro";
+    background: center/cover no-repeat url("/static/imgs/dance_bg.jpg");
+    height: 385px;
+    background-color: red;
+}
+
+#introSection div.tagline {
+    font-size: 35px;
+}
+
+#missionSection h2 {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#missionSection {
+    height: 326px;
+    width: 67%;
+    margin: auto;
+    display: block;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 8px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 200px;
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img {
+    height:120px;
+    padding: 7px 12px;
+}
+
+.card-content{
+    padding: 5px 0;
+}
+
+.card-content p{
+    font-size: 13px;
+    padding: 6px 8px;
+}
+
+#sponsorSection h2 {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#sponsorSection {
+    height: 300px;
+    color: black;
+    background-color: #d43b3b;
+}
+
+#sponsors{
+    height: 150px;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
